@@ -1,20 +1,12 @@
+import 'package:fimbu_mobile/main.dart';
+import 'package:fimbu_mobile/pages/fimbu_home_page.dart';
 import 'package:flutter/material.dart';
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: FimbuText(),
-        ),
-      ),
-    );
-  }
-}
-
 class FimbuText extends StatefulWidget {
+  const FimbuText({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _FimbuTextState createState() => _FimbuTextState();
 }
 
@@ -34,6 +26,14 @@ class _FimbuTextState extends State<FimbuText>
       parent: _controller,
       curve: Curves.easeInOut,
     ));
+
+    // Navigate to the next screen after the animation duration
+    Future.delayed(const Duration(seconds: 1), () {
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => FimbuHomePage()),
+      );
+    });
   }
 
   @override
@@ -44,23 +44,25 @@ class _FimbuTextState extends State<FimbuText>
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.purple,
-      child: Center(
-        child: AnimatedBuilder(
-          animation: _animation,
-          builder: (context, child) {
-            return Transform.translate(
-              offset: Offset(0, _animation.value),
-              child: Text(
-                'Fimbu',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 40,
+    return Scaffold(
+      body: Container(
+        color: Colors.purple,
+        child: Center(
+          child: AnimatedBuilder(
+            animation: _animation,
+            builder: (context, child) {
+              return Transform.translate(
+                offset: Offset(0, _animation.value),
+                child: const Text(
+                  'Fimbu',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 40,
+                  ),
                 ),
-              ),
-            );
-          },
+              );
+            },
+          ),
         ),
       ),
     );
