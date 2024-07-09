@@ -30,8 +30,16 @@ The Fimbu Mobile App is designed to provide users with a seamless shopping exper
 
 - Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
 
+- Apk: https://drive.google.com/file/d/1uYJW0l72p0C8laxaSgoNGaZEuwUX87X4/view?usp=sharing
+- Appetizo link: https://appetize.io/app/b_poke5qjftitzlhnpluoxggheoa
+
 ### Installation
 
 1. Clone the repository
    ```sh
    git clone https://github.com/yourusername/fimbu_mobile.git
+   
+![image1](https://github.com/Dev-ellaij/fimbu_app/assets/111292475/4dc565c4-67ad-4a78-b9f7-e4a627ec54dc)
+
+![image2](https://github.com/Dev-ellaij/fimbu_app/assets/111292475/464dbdf1-3a38-4f1c-9721-cffeecec559a)
+
