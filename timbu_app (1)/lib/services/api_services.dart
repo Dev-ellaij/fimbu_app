@@ -37,7 +37,7 @@ void main() async {
 
   try {
     Product product = await fimbuServices.getProduct();
-    print('Product: ${product.name}'); // Assuming Product has a field `name`
+    print('Product: ${product.name}'); 
   } catch (e) {
     print(e);
   }
