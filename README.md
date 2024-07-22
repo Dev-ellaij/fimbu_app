@@ -1,45 +1,49 @@
-# Fimbu Mobile App
+Sharrie's Signature
+Welcome to Sharrie's Signature - a Flutter application providing a seamless shopping experience for skincare products. This app features a carousel of products, a search functionality, a wishlist, and an order history screen.
 
-Fimbu Mobile App is a Flutter application that showcases a list of products with detailed descriptions. This app uses a TabBar to navigate between different product categories, such as "All" and "Shoes Bag".
+Features
+Product Carousel: A beautiful carousel to showcase featured products.
+Search: Easily search for products with the integrated search functionality.
+Cart: Add products to your cart and keep track of them.
+Wishlist: Add products to your wishlist for future reference.
+Order History: View your order history.
+Screenshots
 
-## Table of Contents
 
-- [About the Project](#about-the-project)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Dependencies](#dependencies)
-- [Folder Structure](#folder-structure)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
-## About the Project
+Getting Started
+To get a local copy up and running, follow these simple steps.
 
-The Fimbu Mobile App is designed to provide users with a seamless shopping experience by displaying a list of products in an organized manner. Each product has a detailed description page that users can navigate to by tapping on the product. This project demonstrates the use of various Flutter components such as `TabBar`, `TabBarView`, `ListView`, and `Navigator`.
+Prerequisites
+Flutter installed on your machine.
+A code editor like VSCode or Android Studio.
+Installation
+Clone the repository:
+sh
+Copy code
+git clone https://github.com/your-username/sharries-signature.git
+Navigate to the project directory:
+sh
+Copy code
+cd sharries-signature
+Get the dependencies:
+sh
+Copy code
+flutter pub get
+Run the app:
+sh
+Copy code
+flutter run
+Usage
+Adding to Cart
+To add a product to your cart, simply tap the "Add to Cart" button under the desired product.
 
-## Features
+Adding to Wishlist
+To add a product to your wishlist, tap the heart icon on the product.
 
-- Display a list of products with images, names, descriptions, and prices.
-- Navigate between different product categories using `TabBar`.
-- View detailed product descriptions on a separate page.
-- Responsive design to fit various screen sizes.
+Search for Products
+Use the search bar at the top of the home screen to find specific products.
 
-## Getting Started
-
-### Prerequisites
-
-- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
-
-- Apk: https://drive.google.com/file/d/1uYJW0l72p0C8laxaSgoNGaZEuwUX87X4/view?usp=sharing
-- Appetizo link: https://appetize.io/app/b_poke5qjftitzlhnpluoxggheoa
-
-### Installation
-
-1. Clone the repository
-   ```sh
-   git clone https://github.com/yourusername/fimbu_mobile.git
-   
-![image1](https://github.com/Dev-ellaij/fimbu_app/assets/111292475/4dc565c4-67ad-4a78-b9f7-e4a627ec54dc)
-
-![image2](https://github.com/Dev-ellaij/fimbu_app/assets/111292475/464dbdf1-3a38-4f1c-9721-cffeecec559a)
+Viewing Order History
+Navigate to the order history screen using the bottom navigation bar.
 
